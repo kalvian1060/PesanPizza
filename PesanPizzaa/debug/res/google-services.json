@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "257763185287",
+    "firebase_url": "https://pesanpizza-ed958.firebaseio.com",
+    "project_id": "pesanpizza-ed958",
+    "storage_bucket": "pesanpizza-ed958.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257763185287:android:3437d78b4e1f6bcb",
+        "android_client_info": {
+          "package_name": "com.naldroid.zainalsalamun.skripsi.pesanpizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257763185287-ou0scpa0d1jk2g7a28rhd4tteb47t4ra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naldroid.zainalsalamun.skripsi.pesanpizza",
+            "certificate_hash": "AC93972AF23EBB38C23570A8BFF3D3AA95253889"
+          }
+        },
+        {
+          "client_id": "257763185287-7vtvo3462tbq538mvn6v4q3hbivohd2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyJq5Q4bEEZOrRn1Pt2xrEsVdLcsFm9FE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257763185287-7vtvo3462tbq538mvn6v4q3hbivohd2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

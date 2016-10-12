@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Pesan Pizza</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login Activity</string>
+    <string name="title_activity_produk">Produk Activity</string>
+    <string name="title_activity_keranjang">Keranjang Activity</string>
+    <string name="title_activity_detail_produk">Detail Produk</string>
+    <string-array name="jumlah">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+    </string-array>
+    <string name="title_activity_list">List Activity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_tambah_pemesan">Tambah Pemesan</string>
+    <string name="title_activity_view_tracker">ViewTracker</string>
+    <string name="title_activity_tracker_marker">Tracker Marker</string>
+    <string name="title_activity_aaa">Map</string>
+</resources>

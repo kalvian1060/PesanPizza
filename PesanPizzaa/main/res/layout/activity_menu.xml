@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnSurvei"
+        android:layout_marginTop="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="47dp"
+        android:src="@drawable/nanamia"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnHasil"
+        android:layout_alignTop="@+id/btnSurvei"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="39dp"
+        android:src="@drawable/logopizza"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnKantor"
+        android:src="@drawable/lokasi_kurir"
+        android:layout_below="@+id/btnSurvei"
+        android:layout_alignLeft="@+id/btnSurvei"
+        android:layout_marginTop="99dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="         Nanamia"
+        android:id="@+id/textView2"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/btnSurvei"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="       Pesan "
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Lokasi kurir"
+        android:id="@+id/textView6"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/btnKantor"
+        android:layout_alignLeft="@+id/btnKantor" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnTentang"
+        android:src="@drawable/tentang"
+        android:layout_alignTop="@+id/btnKantor"
+        android:layout_alignLeft="@+id/btnHasil" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  Tentang"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignLeft="@+id/btnTentang" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pesan Pizza"
+        android:id="@+id/textView8"
+        android:textSize="25dp"
+        android:textColor="#f5080d04"
+        android:textStyle="bold"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnTentang"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></FrameLayout>
+
+</RelativeLayout>

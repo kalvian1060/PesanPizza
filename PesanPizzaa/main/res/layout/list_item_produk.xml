@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="nama"
+        android:id="@+id/namaPro"
+        android:textColor="#000000"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="harga"
+        android:id="@+id/hargaPro"
+        android:layout_below="@+id/namaPro"
+        android:layout_alignRight="@+id/namaPro"
+        android:layout_alignEnd="@+id/namaPro"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/desPro" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/idPro" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/gambar" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="stok"
+        android:id="@+id/stokPro"
+        android:layout_below="@+id/hargaPro"
+        android:textColor="#000000" />
+
+</RelativeLayout>

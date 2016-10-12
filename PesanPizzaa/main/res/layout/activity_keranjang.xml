@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Keranjang Belanja"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/nama"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:text="Nama Barang :" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Harga :"
+        android:id="@+id/harga"
+        android:layout_below="@+id/nama"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Jumlah :"
+        android:id="@+id/jumlah"
+        android:layout_below="@+id/harga"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:id="@+id/jumlahspin"
+        android:spinnerMode="dropdown"
+        android:entries="@array/jumlah"
+        android:layout_alignTop="@+id/jumlah"
+        android:layout_toRightOf="@+id/nama"
+        android:layout_toEndOf="@+id/nama" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Keterangan"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/jumlahspin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ket"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/hargabarang"
+        android:layout_alignEnd="@+id/hargabarang"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Total Harga : "
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        android:id="@+id/btnCheck"
+        android:layout_marginRight="39dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/hargabarang"
+        android:layout_alignEnd="@+id/hargabarang" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/hargabarang"
+        android:layout_alignTop="@+id/harga"
+        android:layout_toRightOf="@+id/nama"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/namabarang"
+        android:layout_above="@+id/harga"
+        android:layout_alignLeft="@+id/hargabarang"
+        android:layout_alignStart="@+id/hargabarang"
+        android:layout_alignRight="@+id/ket"
+        android:layout_alignEnd="@+id/ket" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/totalharga"
+        android:layout_toRightOf="@+id/totalharga"
+        android:layout_toEndOf="@+id/totalharga" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalharga"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/waktu"
+        android:layout_above="@+id/nama"
+        android:layout_alignRight="@+id/namabarang"
+        android:layout_alignEnd="@+id/namabarang" />
+
+</RelativeLayout>
